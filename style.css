@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    margin: 65px;
+    padding: 65px;
+}
+img{
+    border-radius: 100%;    
+}
+.center {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 75%;
+}
+.item{
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height:15px;
+    display: inline;
+    border-radius: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
